@@ -1,0 +1,6 @@
+var numbers = [175, 50, 25];
+var leftToRight = numbers.reduce(function(total, num) {return total - num;});
+var RighToLeft = numbers.reduceRight(function(total, num) {return total - num;});
+document.write(leftToRight);
+document.write("<br>");
+document.write(RighToLeft);

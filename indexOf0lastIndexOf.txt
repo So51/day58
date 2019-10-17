@@ -1,0 +1,6 @@
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var a = fruits.indexOf("Apple");
+var b = fruits.lastIndexOf("Mango");
+document.write(a);
+document.write("<br>");
+document.write(b);
